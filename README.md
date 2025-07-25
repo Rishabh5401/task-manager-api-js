@@ -30,3 +30,21 @@ A simple Task Management API built using **Node.js**, **Express**, and **file-ba
 ```bash
 git clone https://github.com/Rishabh5401/task-manager-api-js.git
 cd task-manager-api-js
+
+🛠️ API Endpoints
+Method	Endpoint	Description
+GET	/api/tasks	Get all tasks
+POST	/api/tasks	Create a new task
+GET	/api/tasks/:id	Get task by ID
+PUT	/api/tasks/:id	Update task by ID
+DELETE	/api/tasks/:id	Delete task by ID
+
+📥 Sample Task Payload
+{
+  "title": "Learn Express",
+  "description": "Build a task API using Express"
+}
+🧑‍💻 Author
+Rishabh Sharma
+GitHub • LinkedIn
+
